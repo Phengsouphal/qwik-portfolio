@@ -1,0 +1,54 @@
+{
+  "name": "my-qwik-empty-starter",
+  "description": "Blank project with routing included",
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build && npm run i18n-translate",
+    "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.types": "tsc --incremental --noEmit",
+    "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
+    "dev": "vite --mode ssr",
+    "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+    "fmt": "prettier --write .",
+    "fmt.check": "prettier --check .",
+    "i18n-extract": "node_modules/.bin/localize-extract -s \"dist/build/*.js\" -f json -o src/locales/message.en.json",
+    "i18n-translate": "node_modules/.bin/localize-translate -s \"*.js\" -t src/locales/message.*.json -o dist/build/{{LOCALE}} -r ./dist/build",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "prei18n-extract": "vite build",
+    "preview": "qwik build preview && vite preview --open",
+    "start": "vite --open --mode ssr",
+    "qwik": "qwik"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^16.2.2",
+    "@angular/compiler-cli": "^16.2.2",
+    "@builder.io/qwik": "^1.14.1",
+    "@builder.io/qwik-city": "^1.14.1",
+    "@eslint/js": "latest",
+    "@qwikest/icons": "^0.0.13",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "20.14.11",
+    "compiled-i18n": "^1.1.1",
+    "eslint": "9.25.1",
+    "eslint-plugin-qwik": "^1.14.1",
+    "globals": "16.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.0",
+    "typescript": "5.4.5",
+    "typescript-eslint": "8.26.1",
+    "undici": "*",
+    "vite": "^5.4.19",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@angular/localize": "^16.2.12",
+    "flowbite": "^3.1.2"
+  }
+}

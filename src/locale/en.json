@@ -1,0 +1,58 @@
+{
+  "welcome": "Welcome",
+  "hello": "Hello {{name}}!",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "messages": {
+    "success": "Operation completed successfully!",
+    "error": "Something went wrong. Please try again.",
+    "loading": "Loading..."
+  },
+  "plurals": {
+    "item_zero": "No items",
+    "item_one": "{{count}} item",
+    "item_other": "{{count}} items"
+  },
+  "Dr Des 1": "Developing and maintaining web applications using Vue 3,\n                    Nuxt, React and other related technologies.",
+  "Dr Des 2": "Collaborating with cross-functional teams including\n                    designers, product managers, and other developers to create\n                    high-quality products.",
+  "Dr Des 3": "Implement state management solutions using Pinia for\n                    managing global state when building complex applications.",
+  "Dr Des 4": "Implementing responsive design and ensuring cross-browser\n                    compatibility.",
+  "Dr Des 5": "Provide ongoing support, bug fixes, and feature enhancements\n                    for the application.",
+  "GamBit Des 1": "Developing and maintaining web applications and back-end\n                    using Vue 2, Vue 3, Flutter, Dart, Go and other related\n                    technologies.",
+  "GamBit Des 2": "Implement state management using Vuex or Pinia for complex\n                    state handling in Vue applications.",
+  "GamBit Des 3": "Use Axios or other HTTP libraries for making API requests.",
+  "GamBit Des 4": "Implement state management solutions in Flutter, such as\n                    Provider, GETX or BLOC.",
+  "GamBit Des 5": "Write backend server-side logic using the Go programming\n                    language.",
+  "Vtech Des 5": "Collaborate with frontend and backend developers to ensure\n                    smooth communication and coordination between different\n                    layers of the application.",
+  "Vtech Des 4": "Participating in code reviews and providing constructive\n                    feedback to other developers.",
+  "Vtech Des 3": "Leverage state management solutions such as Redux, Recoil or\n                    React Context for managing application state.",
+  "Vtech Des 2": "Write modular, reusable, and efficient React components for\n                    building the user interface.",
+  "Vtech Des 1": "Collaborate with project manager and client to understand\n                    and gather requirements for the web application.",
+  "Bikay Des 1": "Collaborate with project manager to gather and understand\n                    the requirements for the mobile application.",
+  "Bikay Des 2": "Write mobile application code using React Native, allowing\n                    for the development of cross-platform app.",
+  "Bikay Des 3": "Implement state management solutions, such as Redux or React\n                    Context, to manage the state of the application.",
+  "Bikay Des 4": "Develop the backend logic and APIs using the Laravel\n                    framework, and implement RESTful APIs to communicate with\n                    the React Native frontend.",
+  "Bikay Des 5": "Design and implement database schemas using Laravel's\n                    Eloquent ORM and perform database migrations and seeding.",
+  "Iota Des 5": "Follow best practices in software development, including\n                    code organization, design patterns, and coding standards.",
+  "Iota Des 4": "Integrate with databases using Java Database Connectivity\n                    (JDBC) or other database access libraries.",
+  "Iota Des 3": "Design and implement interactive and responsive UI\n                    components using Vaadin UI components library.",
+  "Iota Des 2": "Collaborate with manager to gather and understand the\n                    requirements for the web application.",
+  "Iota Des 1": "Write server-side Java code to handle business logic and\n                    data processing.",
+
+  "Freelance Des 1": "Design and build UI components using Vue 3 Composition API and Vuetify and\n develop dynamic forms, tables, modals, and dashboards using Vuetify’s components.",
+  "Freelance Des 2": "Integrate RESTful APIs to fetch and display data and\n use Vue Router and  Pinia for routing and state management",
+  "Freelance Des 3": "Collaborate with stakeholders to understand and gather requirements for mobile application, backend and API specifications.",
+  "Freelance Des 8": "Write cross-platform mobile application code using React Native for iOS and Android platforms.",
+  "Freelance Des 4": "Develop scraping scripts using libraries like requests, BeautifulSoup, Selenium.",
+  "Freelance Des 5": "Scrape structured and dynamic content",
+  "Freelance Des 6": "Extract and clean data into formats like JSON, CSV, Excel, or database-ready structures.",
+  "Freelance Des 7": "Prepare scraped data for sending mail."
+}

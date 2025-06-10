@@ -1,0 +1,24 @@
+{
+  "welcome": "Bienvenido",
+  "hello": "¡Hola {{name}}!",
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar"
+  },
+  "messages": {
+    "success": "¡Operación completada exitosamente!",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "loading": "Cargando..."
+  },
+  "plurals": {
+    "item_zero": "Sin elementos",
+    "item_one": "{{count}} elemento",
+    "item_other": "{{count}} elementos"
+  }
+}

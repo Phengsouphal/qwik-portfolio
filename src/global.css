@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+@theme {
+  --color-mc-bg: #fff1f1;
+  --color-mc-bg-card: #ffffff;
+  --color-mc-btn: #ffb6b6;
+  --color-mc-text: #333333;
+  --color-mc-border: #333333;
+  --color-mc-accent: #bee3db;
+  --breakpoint-2md: 56rem;
+}
+
+@layer utilities {
+  .mc-icon-hover {
+    @apply cursor-pointer shadow-lg transition-all duration-200 hover:scale-110 hover:-rotate-6;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
+
+html,
+body {
+  @apply bg-mc-bg flex w-full flex-col items-center justify-start;
+}
+
+p {
+  @apply text-mc-text;
+}
+
+.mc-des p::before {
+  content: "៚ ";
+}
