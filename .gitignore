@@ -36,3 +36,6 @@ dist/
 dist.zip
 stats.html
 bundle-analyze.html
+
+# Vercel
+.vercel
