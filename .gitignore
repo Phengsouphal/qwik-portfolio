@@ -7,10 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-# dist
-# dist.zip
-dist-ssr
+node_modules 
 *.local
 
 # local env files
@@ -21,21 +18,9 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-types/auto-imports.d.ts
-types/components.d.ts
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-vite.config.ts.timestamp-*
+.idea     
 dist/
-dist.zip
-stats.html
-bundle-analyze.html
+dist.zip  
 
 # Vercel
 .vercel
