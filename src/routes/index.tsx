@@ -76,6 +76,7 @@ export default component$(() => {
   const { t } = useI18n();
 
   const handleClick = $((type: "git" | "tg" | "li" | "fb") => {
+    console.log("object, dldfkkdkf");
     const url =
       type == "git"
         ? "https://github.com/Phengsouphal"
@@ -469,7 +470,7 @@ export default component$(() => {
     document.documentElement.style.setProperty("--color-mc-bg", i?.background);
     document.documentElement.style.setProperty(
       "--color-mc-bg-card",
-      i?.surface,
+      i?.surface
     );
     document.documentElement.style.setProperty("--color-mc-accent", i?.accent);
     document.documentElement.style.setProperty("--color-mc-text", i?.text);
