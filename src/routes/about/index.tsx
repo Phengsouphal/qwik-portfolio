@@ -1,21 +1,12 @@
-import { component$, $, getLocale } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import { LuRocket } from "@qwikest/icons/lucide";
-import {
-  _,
-  defaultLocale,
-  setDefaultLocale,
-  locales,
-  setLocaleGetter,
-} from "compiled-i18n";
+import { _ } from "compiled-i18n";
 import { LanguageSwitcher } from "~/components/language-switcher";
 import { useI18n } from "~/context/i18n-context";
 
 export default component$(() => {
-  const { t, tp } = useI18n();
-  const handleClick = $((id: any) => {
-    console.log("object", locales);
-    setLocaleGetter(() => getLocale("it"));
-  });
+  const { t } = useI18n();
+
   return (
     <>
       <nav class="border-gray-200 bg-white dark:bg-gray-900">
@@ -113,7 +104,6 @@ export default component$(() => {
         <LanguageSwitcher />
         <h1 class="text-teal-400">Hi 👋 About About</h1>
 
-        <button onClick$={() => handleClick("id")}>sdfdfdf</button>
         <button
           type="button"
           class="me-2 mb-2 rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:bg-blue-800 focus:outline-none active:scale-90 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

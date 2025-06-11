@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 /*
  * WHAT IS THIS FILE?
  *
