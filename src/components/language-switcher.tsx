@@ -6,6 +6,8 @@ const LOCALE_NAMES: Record<SupportedLocale, string> = {
   en: "English",
   es: "Español",
   fr: "Français",
+  kh: "Khmer",
+  zh: "Chinese",
 };
 
 export const LanguageSwitcher = component$(() => {
