@@ -38,9 +38,20 @@ export const I18nProvider = component$<I18nProviderProps>(
         locale.value = potentialLocale;
       } else {
         // Fallback to browser language or default
-        const browserLang = globalThis.navigator?.language?.split(
+        let browserLang = globalThis.navigator?.language?.split(
           "-"
         )[0] as SupportedLocale;
+
+        if (typeof localStorage !== "undefined") {
+          browserLang = (localStorage?.getItem("preferred-locale") ||
+            "en") as SupportedLocale;
+          console.log(
+            SUPPORTED_LOCALES.includes(browserLang),
+            "=--=-==-=-",
+            browserLang
+          );
+        }
+
         locale.value = SUPPORTED_LOCALES.includes(browserLang)
           ? browserLang
           : DEFAULT_LOCALE;

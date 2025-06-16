@@ -1,26 +1,6 @@
 {
   "welcome": "Welcome",
   "hello": "Hello {{name}}!",
-  "navigation": {
-    "home": "Home",
-    "about": "About",
-    "contact": "Contact"
-  },
-  "buttons": {
-    "save": "Save",
-    "cancel": "Cancel",
-    "submit": "Submit"
-  },
-  "messages": {
-    "success": "Operation completed successfully!",
-    "error": "Something went wrong. Please try again.",
-    "loading": "Loading..."
-  },
-  "plurals": {
-    "item_zero": "No items",
-    "item_one": "{{count}} item",
-    "item_other": "{{count}} items"
-  },
   "Dr Des 1": "Developing and maintaining web applications using Vue 3,\n                    Nuxt, React and other related technologies.",
   "Dr Des 2": "Collaborating with cross-functional teams including\n                    designers, product managers, and other developers to create\n                    high-quality products.",
   "Dr Des 3": "Implement state management solutions using Pinia for\n                    managing global state when building complex applications.",
@@ -54,5 +34,34 @@
   "Freelance Des 4": "Develop scraping scripts using libraries like requests, BeautifulSoup, Selenium.",
   "Freelance Des 5": "Scrape structured and dynamic content",
   "Freelance Des 6": "Extract and clean data into formats like JSON, CSV, Excel, or database-ready structures.",
-  "Freelance Des 7": "Prepare scraped data for sending mail."
+  "Freelance Des 7": "Prepare scraped data for sending mail.",
+
+  "My Self Des": " I'm a frontend developer with full-stack skills, passionate about developing smooth and engaging user interfaces. My work centers around creating responsive and accessible applications that delight users. Currently, I'm contributing to the creation of top-tier digital experiences at DR Tech Co.,Ltd",
+  "Pheng Souphal": "Pheng Souphal",
+  "Frontend Developer": "Frontend Developer",
+  "Download CV": "Download CV",
+  "5 Year of experience": "+5 Year of experience",
+  "Preference": "Preference",
+  "Learning and Reviewing": "Learning and Reviewing",
+  "Contact": "Contact",
+  "CV": "CV",
+  "Projects": "Projects",
+  "Theme": "Theme",
+  "Copy Right": "Copyright © 2025 Pheng Souphal.",
+  "Work experience": "Work experience",
+  "Month": "Month",
+  "Knowledge": "Knowledge",
+  "Frontend": "Frontend",
+  "Backend": "Backend",
+  "Styling Libraries": "Styling Libraries",
+  "Component UI Libraries": "Component UI Libraries",
+  "State Management": "State Management",
+  "Tools": "Tools",
+  "MultiPlatform": "MultiPlatform",
+  "Dependency": "Dependency",
+  "Design": "Design",
+  "Other": "Other",
+  "Styling": "Pheng",
+  "Styling": "Pheng",
+  "Styling": "Pheng"
 }

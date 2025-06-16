@@ -17,7 +17,7 @@ export const BaseButton = component$(
         id={props?.id}
         data-dropdown-toggle={props?.data}
         class={[
-          "h-[40px] cursor-pointer rounded px-3 py-2.5 text-sm font-medium text-neutral-800 transition-all duration-200 hover:bg-cyan-200 active:scale-90",
+          "h-[40px] cursor-pointer rounded px-3 py-2.5 text-sm font-medium text-neutral-800 transition-all duration-200 hover:bg-mc-accent active:scale-90",
           props.class,
         ]}
         onClick$={() => {
@@ -33,5 +33,5 @@ export const BaseButton = component$(
         </div>
       </button>
     );
-  },
+  }
 );
